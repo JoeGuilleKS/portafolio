@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imagenes/Frame 6.png" alt="logo de alura">
+        </div>
+        <h1 class="titulo">Challenge Encriptador</h1>
+    </header>
+    
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/josephguillenbus/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/JoeGuilleKS"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/anonymouSTFU/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/weirdo.guille/"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2023 Mis redes sociales.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
